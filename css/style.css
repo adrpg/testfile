@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #d2f8c1;
+}
+
+.parentContainer{
+    background-image: url('/Images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: 100% 92%; */
+    border-radius: 12px;
+}
+.nav {
+display: flex;
+justify-content: space-between;
+/* background-color: whitesmoke; */
+align-items: center;
+padding: 10px 20px;
+width: auto;
+top: 0;
+border-radius: 12px;
+font-family: Arial, Helvetica, sans-serif;
+/* position: fixed; */
+}
+.brandName{
+color: #A4FF7C;
+}
+ul {
+display: flex;
+list-style: none;
+gap: 30px;
+font-size: 20px;
+color: #003366;
+;
+}
+
+li {
+/* padding: 10px; */
+cursor: pointer;
+color: whitesmoke;
+
+}
+a{
+color: whitesmoke;
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+text-decoration-color: #A4FF7C;
+}
+
+.signInBtn {
+background-color: transparent; /* Green background */
+color: white; /* White text */
+padding: 10px 20px; /* Padding for size */
+font-size: 22px; /* Font size */
+border: none; /* Removes border */
+cursor: pointer; /* Changes cursor to pointer on hover */
+transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.signInBtn:hover {
+text-decoration: underline;
+text-decoration-color: #A4FF7C;
+text-decoration-thickness: 2px;
+}
+
+
+
+.heading{
+font-weight: 700;
+color: rgb(114, 239, 114);
+font-size: 100px;
+max-width: 550px;
+margin: 50px 0px 40px 40px;
+}
+
+.description{
+font-weight: 500;
+color: #F0F0F0;
+max-width: 700px;
+margin: 0px 0px 40px 40px;
+font-size: 26px;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+}
+
+.backImg{
+border-radius: 100%;
+}
+
+.aboutHead{
+color: rgb(95, 235, 95);
+font-weight: 700;
+font-size: 30px;
+}
+
+.about{
+    margin-left: 35px;
+    padding: 20px;
+}
+
+.aboutDesc{
+    font-size: 24px;
+    max-width: 680px;
+}
+
+.secondCont{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
+.timing{
+    padding: 20px;
+}
+.timeHead{
+    color: rgb(95, 235, 95);
+}
+
+.timeDay{
+   
+   font-size: 22px;
+}
+
+.contactHead{
+    color: rgb(95, 235, 95);
+}
+
+.contactMail{
+    font-size: 22px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+}
